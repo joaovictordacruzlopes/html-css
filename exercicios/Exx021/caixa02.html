@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: antiquewhite;
+        }
+        header{
+            background-color: lightgray;
+            padding: 10px;
+            margin:10px
+        }
+
+        nav{
+        background-color: lightblue;
+         padding: 3px;
+        box-shadow:1px 1px 7px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: black;
+             margin:30px;           
+             font-weight: bold;
+        }
+
+        nav > a:hover {
+            color: red;
+            text-decoration: underline;
+           
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin:10px;
+            border-radius:20px 0px;
+            box-shadow:1px 1px 10px 1px rgba(0, 0, 0, 0.747);
+        }
+        article{
+            background-color: lightblue;
+           
+        }
+        article> aside {
+            background-color: lightgray;
+            
+             
+        }
+
+            footer{
+                background-color: lightgray;
+                padding: 4px;
+                margin:10px;
+                text-align: center;
+            }
+
+            Footer>p{
+                margin: 0px;
+            }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu site</h1>
+<nav>
+    <a href="#">Links</a>
+    <a href="#">Links</a>
+    <a href="#">Links</a>
+    <a href="#">Links</a>
+    <a href="#">Links</a>
+    </nav>
+   </header> 
+   <main>
+<section id=" assuntos">
+    <p>Esporte e tecnologia são assuntos
+    </p>
+</section>
+<section id="noticias">
+    <article>
+        <h2>Noticias de ultima hora</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor officiis nostrum? Vel illum deleniti exercitationem quam aspernatur dolorem eveniet sit voluptas. Suscipit quasi consequatur ipsam asperiores? Enim, ex illo!</p>
+        <aside>
+            <p>Artigo escrito por victor Aleira</p>
+        </aside>
+    </article>
+</section>
+
+   </main>
+   <footer>
+<p>Desemvolvido por Victor Aleira</p>
+   </footer>
+
+
+
+</body>
+</html>
