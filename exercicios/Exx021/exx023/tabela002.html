@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+       
+         thead>tr>th{
+            position: sticky;
+            top:-1px;
+            background-color: #9d9d9d;
+         }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+        thead, tfoot{
+            background-color: #9d9d9db4;
+            color: azure;
+        }
+
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            padding: 10px;
+            background-color: #9d9d9db4;
+            color: rgb(0, 0, 0);  
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: #d9d9d9;
+        }   
+
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes </h1>
+<table>
+    <thead>
+          <tr>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 100px;">População</th>
+          </tr>
+
+    </thead>
+      <caption>População das Unidades Federativas</caption>
+     <tfoot>
+<tr>
+    <th scope="row">Total</th>
+    <td ><strong>210.147.125</strong></td>
+</tr>
+    </tfoot>
+
+    <tbody>
+        
+          <tr>
+            <td>Minas Gerais</td>
+            <td class="num">20.596.000</td>
+          </tr>
+
+          <tr>
+            <td>Rio de janeiro</td>
+            <td class="num">17.264.943</td>
+          </tr>
+
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">12.450.000</td>
+            </tr>
+            <tr>
+                <td >Bahia</td>
+                <td class="num">14.840.000</td> 
+            </tr>
+
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.516.840</td>
+            </tr>  
+        
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10.770.000</td>
+            </tr>
+
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.616.621</td>
+            </tr>
+
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.187.103</td>
+
+            </tr>
+
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.690.745</td>
+            </tr>
+
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.252.502</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7.113.540</td>
+
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.269.995</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4.064.052</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">4.039.277</td>
+            </tr>
+
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">3.504.000</td>
+            </tr>
+        <tr>
+            <td>Piauí</td>
+            <td class="num">3.273.227</td>
+        </tr>
+
+        <tr>
+            <td>Alagoas</td>
+            <td class="num">3.351.543</td>
+        </tr>
+
+        <tr>
+            <td>Distrito Federal</td>
+            <td class="num">3.055.149</td>
+        </tr>
+
+        <tr>
+            <td>Acre</td>
+            <td class="num">881.935</td>
+        </tr>
+
+        <tr>
+            <td>Amapá</td>
+            <td class="num">861.773</td>
+        </tr>
+
+        <tr>
+            <td>Rondônia</td>
+            <td class="num">1.796.460</td>
+
+            <tr>
+                <td>Roraima</td>
+                <td class="num">631.181</td>
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="num">1.572.866</td>
+            </tr>
+
+            <tr>
+                <td>Outros</td>
+                <td class="num">1.000.000</td>
+            </tr>
+        </tbody>
+
+</table>
+
+
+</body>
+</html>
