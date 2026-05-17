@@ -1,0 +1,2 @@
+Os dados foram enviados!
+Aprenda ´PHP para criar um sistema de cadastro completo. Este é apenas o começo da sua jornada na programação web. Continue praticando e explorando novas funcionalidades para aprimorar suas habilidades!

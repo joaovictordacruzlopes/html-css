@@ -14,15 +14,15 @@
 <body>
     <h1>Meu primeiro formulário</h1>
 
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="POST" autocomplete="off">
         <p> <label for="inome">Nome : </label></p>
-        <input type="text" name="nome" id="inome">
+        <input type="text" name="nome" id="inome" required>
 
         <p> <label for="isobrenome">Sobrenome : </label></p>
-        <input type="text" name="sobrenome" id="isobrenome">
+        <input type="text" name="sobrenome" id="isobrenome" required>
         
          <p> <label for="icpf">CPF : </label></p>
-         <input type="text" name="cpf" id="icpf">
+         <input type="text" name="cpf" id="icpf" required>
 
          <p> <input type="submit" value="Enviar"></p>
     </form> 
