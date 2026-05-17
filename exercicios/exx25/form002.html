@@ -9,9 +9,15 @@
     <h1>Teste de formulários</h1>
 
 
-<form action="cadastro.php" method="get">
-    <p><label for="iusu"> Úsuario:</label></p>
-    <input type="text" name="usu" id="iusu" required minlength="4" maxlength="14" size="10" placeholder="Nome do úsuario">   
+<form action="cadastro.php" method="get" autocomplete="off">
+
+    <p>
+
+    <label for="iusu"> Úsuario:</label>
+    <input type="text" name="usu" id="iusu" required minlength="4" maxlength="14" size="10" placeholder="Nome do úsuario"> 
+</p>   
+
+
 
 <p>
     <label for="isen">Senha:</label>
@@ -22,9 +28,5 @@
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar">
 </p>
-
-
-</form>
-
 </body>
 </html>
