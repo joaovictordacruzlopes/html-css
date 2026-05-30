@@ -4,3 +4,44 @@
 @media print {
     
 }
+
+@media screen and (min-width:768px) and (max-width:994px){
+body{
+    background-image:url(../imagens/back-tablet.jpg);
+}
+        img#phone{display:none;}
+        img#tablet{display:block}
+        img#print{display:none;}
+        img#pc{display: none;}
+        img#tv{display:none;}
+}
+
+@media screen and (min-width:994px) and (max-width:1220px){
+   body{
+    background-image: url(../imagens/back-pc.jpg);
+   }
+
+    img#phone{display:none;}
+    img#tablet{display:none}
+    img#print{display:none;}
+    img#pc{display: block;}
+    img#tv{display:none;}
+
+
+   
+}
+
+@media screen and (min-width:1400px) {
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+   }
+
+        img#phone{display:none;}
+        img#tablet{display:none}
+        img#print{display:none;}
+        img#pc{display: none;}
+        img#tv{display:block;}
+
+    }
+
+
