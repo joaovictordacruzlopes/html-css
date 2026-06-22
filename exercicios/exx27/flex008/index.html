@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box </title>
+    <style>
+         .container {
+            background-color: #e9a639;
+            display: flex;
+            flex-flow: row wrap;
+            height:400px;
+            align-items: flex-start;
+            
+             
+        }
+        .item {
+           background-color: #ccc;
+           border: 1px solid #999;
+          text-align: center;
+          padding:20px;
+          
+        }
+        
+        #primeiro{
+        
+        }
+        #segundo{
+         
+        }
+
+        #terceiro{
+        align-self: end;
+        }
+
+        #quarto{
+
+        }
+
+        #quinto{
+        align-self:center;
+        }
+
+        #sexto{
+         align-self:stretch;
+        }
+       #setimo{
+
+              }
+
+      #oitavo{
+
+      }
+       
+   
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="primeiro">A</div>
+        <div class="item" id="segundo">B</div>
+        <div class="item" id="terceiro">C</div>
+        <div class="item" id="quarto">D</div>
+        <div class="item" id="quinto">E</div>
+        <div class="item" id="sexto">F</div>
+        <div class="item" id="setimo">G</div>
+        <div class="item" id="oitavo">h</div>
+
+    </div>
+
+
+</body>
+</html>
